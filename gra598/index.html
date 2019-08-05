@@ -2,86 +2,158 @@
 <html lang= "en" dir="ltr">
 
   <head>
-   <title>gra598 final</title>
-   <link rel="stylesheet" href="css/global.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500|Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+     <title>gra598 final</title>
+     <link rel="stylesheet" href="css/global.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500|Open+Sans|Material+Icons|Source+Sans+Pro&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="global.js"></script>
   </head>
 
   <body>
-    <div class="navbar">
-      <nav id="left-nav" class="nav-groups">
-          <div id="logo" class="navbar-links">
-              Ashley Lucas
-          </div><!--closed navbar links logo-->
-      </nav><!--closed lef nav-->
-      <nav id="right-nav" class="nav-groups">
-            <div class="navbar-links"><a href="#">Home<a/></div>
-            <div class="navbar-links"><a href="#">About<a/></div>
-            <div class="navbar-links"><a href="#">Featured<a/></div>
-            <div class="navbar-links"><a href="#">Video<a/></div>
-            <div class="navbar-links"><a href="#">Print<a/></div>
-            <div class="navbar-links"><a href="#">Contact<a/></div>
-      </nav><!--closed right nav-->
+
+    <div class="navbar" >
+            <nav id="left-nav" class="nav-groups">
+              <a href="index.html"><div id="logo" class="navbar-links" >
+                      Ashley Lucas
+              </div></a><!--closed navbar links logo-->
+              <span class="three-dot" onclick="openNav()"><i class="material-icons md-36">menu</i></span>
+
+
+                  <hr class"headderhr"></hr>
+
+          </nav><!--closed lef nav-->
+
+        <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <h1 id="logo2" class="tracking-in-expand">Ashley Lucas<h1>
+                  <a id="logo3" href="Connections.html"target="_blank">Connections</a>
+                  <a id="logo3" href="Box.html"target="_blank">Box</a>
+                  <a id="logo3" href="texture.html"target="_blank">Texture</a>
+                  <a id="logo3" href="symbol.html"target="_blank">Symbol</a>
+                  <a id="logo3" href="plpline.html"target="_blank">PLP:Line</a>
+                  <a id="logo3" href="plpvideo.html"target="_blank">PLP:Video</a>
+                  <a id="logo3" href="contact.html"target="_blank">Contact</a>
+                  <div class="socialmedia">
+                    <a href="https://www.linkedin.com/in/ashley-lucas/"target="_blank"><i class="fa fa-linkedin" ></i></a>
+                    <a href="https://www.instagram.com/ashleydickinsondesign/"target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/ANDDesign5"target="_blank"><i class="fa fa-twitter"></i><a>
+                  </div>
+
+        </div>
     </div><!--closed navbar-->
 
-    <div class="card-container">
-        <div class="card">
-          <img src="img/linesymbol3.jpg" alt="" style="width:100%">
-          <div class= "container">
-            <h3><b>  </b></h3>
-            <p>A Arizona State University visual communication graduate student. </p>
-          </div>
-        </div> <!--closed about me card-->
 
-        <div class="card">
-          <img src="img/linesymbol3.jpg" alt="example" style="width:100%">
-          <div class= "container">
-            <h2><b>Example</b></h2>
-            <p> Example Example Example</p>
-          </div>
-        </div><!--closed featured-->
 
-        <div class="card">
-          <img src="img/linesymbol3.jpg" alt="" style="width:100%">
-          <div class= "container">
-            <h3><b> </b></h3>
-            <p> fwbwebfjnweind</p>
-          </div>
-        </div><!--closed project 1-->
+    <div id="margin2"class="flip-card" >
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="img/aboutme.jpg" alt="Avatar" style="width:100%"height="100%">
+        </div>
+        <div class="flip-card-back">
+          <h1>About Me</h1>
+          <p>A ASU Graduate Student from Southern California. She has a background in painting and sculpting. Her undergraduate degree is in psychology; which she obtained at the University of California, Merced. </p>
 
-        <div class="card">
-          <img src="img/linesymbol3.jpg" alt="" style="width:100%">
-          <div class= "container">
-            <h3><b></b></h3>
-            <p>febwuwehfi </p>
-          </div>
-        </div><!--cloased project 2-->
+        </div>
+      </div>
 
-        <div class="card">
-          <img src="img/linesymbol3.jpg" alt="" style="width:100%">
-          <div class= "container">
-            <h3><b></b></h3>
-            <p>efwnbfiwebnwed </p>
-          </div>
-        </div><!--closed project 3-->
+    </div>
+    <div class="row" class="card-container">
 
-        <div class="card">
-          <img src="img/linesymbol3.jpg" alt="" style="width:100%">
-          <div class= "container">
-            <h3><b></b></h3>
-            <p> fefbefuwendlkwd</p>
+          <div id="margin"class="flip-card" class="column">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/conect/ConnectionsFinal.jpg" alt="Avatar" style="width:100%"height="100%">
           </div>
-        </div><!--closed project 4-->
+          <div class="flip-card-back">
+            <h1>Featured Project</h1>
+            <p>Connections Project: A project centered around creating a infographic. This info graphic illustrates two ages and a wedding anniversary. </p>
 
-        <div class="card">
-          <img src="img/linesymbol3.jpg" alt="" style="width:100%">
-          <div class= "container">
-            <h3><b></b></h3>
-            <p> jfnfwlfemwjn</p>
           </div>
-        </div><!--closed video-->
+        </div>
+        <a id="logo3" href="Connections.html"target="_blank">
+        <i class="material-icons md-36" >add_box</i></a>
+      </div>
+
+      <div id="margin"class="flip-card"class="column">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/box/Final.jpg" alt="Avatar" style="width:100%"height="100%">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cube</h1>
+            <p>This cube project was to illustrate designing on a 3 dimensional object.   </p>
+
+          </div>
+        </div>
+        <a id="logo3" href="Box.html"target="_blank">
+        <i class="material-icons md-36" >add_box</i></a>
+      </div>
+
+      <div id="margin"class="flip-card"class="column">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/symbol/SymbolFinal.jpg" alt="Avatar" style="width:100%"height="100%">
+          </div>
+          <div class="flip-card-back">
+            <h1>Symbol</h1>
+            <p>This project was simply to create a symbol using just line, point, or the combination of the two.</p>
+
+          </div>
+        </div>
+        <a id="logo3" href="symbol.html"target="_blank">
+        <i class="material-icons md-36" >add_box</i></a>
+      </div>
+
+      <div id="margin"class="flip-card"class="column">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/texture/final.jpg" alt="Avatar" style="width:100%"height="100%">
+          </div>
+          <div class="flip-card-back">
+            <h1>Texture</h1>
+            <p>This project centered around topography. Specifically how you can alter topography to different textures .</p>
+
+          </div>
+        </div>
+        <a id="logo3" href="texture.html"target="_blank">
+        <i class="material-icons md-36" >add_box</i></a>
+      </div>
+
+      <div id="margin"class="flip-card"class="column">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+              <iframe src="https://giphy.com/embed/ZCHFLm6LAjwPexH4Nn" width="100%" height="100%" frameBorder="0"allowFullScreen></iframe><a href="https://giphy.com/gifs/ZCHFLm6LAjwPexH4Nn"></a>
+          </div>
+          <div class="flip-card-back">
+            <h1>PLP: LINE</h1>
+            <p>This project had a goal of using only line to create a dynamic series and 9 individually dynamic images.</p>
+
+          </div>
+        </div>
+        <a id="logo3" href="plpline.html"target="_blank">
+        <i class="material-icons md-36" >add_box</i></a>
+      </div>
+
+      <div id="margin"class="flip-card">
+          <div class="flip-card-front">
+            <video width="100%" height="100%" controls loop>
+                <source src="vid/attempt10.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
     </div><!---closed card-container-->
 
+
+    <footer class="footer">
+  <hr id="footerhr"></hr>
+  <a href="index.html"<div id="footerlogo">
+    Ashley Lucas
+  </div> </a>
+
+</footer>
+
   </body>
+
 
 </html>
