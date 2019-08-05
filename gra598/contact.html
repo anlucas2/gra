@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang= "en" dir="ltr">
+
+  <head>
+   <title>gra598 final</title>
+   <link rel="stylesheet" href="css/global.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500|Open+Sans|Material+Icons|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="global.js"></script>
+  </head>
+
+  <body>
+
+    <div class="navbar" >
+      <nav id="left-nav" class="nav-groups">
+          <a href="index.html"><div id="logo" class="navbar-links" >
+              Ashley Lucas
+          </div></a><!--closed navbar links logo-->
+          <span class="three-dot" onclick="openNav()">
+          <i class="material-icons md-36">menu</i></span>
+            <hr></hr>
+
+      </nav><!--closed lef nav-->
+
+        <div id="mySidenav" class="sidenav">
+
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <h1 id="logo2" class="tracking-in-expand">Ashley Lucas<h1>
+              <a id="logo3" href="Connections.html"target="_blank">Connections</a>
+              <a id="logo3" href="Box.html"target="_blank">Box</a>
+              <a id="logo3" href="texture.html"target="_blank">Texture</a>
+              <a id="logo3" href="symbol.html"target="_blank">Symbol</a>
+              <a id="logo3" href="plpline.html"target="_blank">PLP:Line</a>
+              <a id="logo3" href="plpvideo.html"target="_blank">PLP:Video</a>
+              <a id="logo3" href="contact.html"target="_blank">Contact</a>
+              <div class="socialmedia">
+                <a href="https://www.linkedin.com/in/ashley-lucas/"target="_blank"><i class="fa fa-linkedin" ></i></a>
+                <a href="https://www.instagram.com/ashleydickinsondesign/"target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/ANDDesign5"target="_blank"><i class="fa fa-twitter"></i><a>
+              </div>
+
+        </div>
+
+      </div><!--closed navbar-->
+
+<div class="contact">
+<h2> Contact Me </h2>
+</div>
+
+      <div class="container">
+        <form action="action_page.php">
+
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">United States</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+
+      <footer class="footer">
+    <hr id="footerhr"></hr>
+    <a href="index.html"<div id="footerlogo">
+      Ashley Lucas
+    </div> </a>
+
+  </footer>
+</body>
+</html>
